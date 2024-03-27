@@ -4,14 +4,14 @@ const popupContainer = document.querySelector('.popup-container')
 const refreshBtn = document.getElementById("refresh-btn");
 let points = 0;
 const cardsArray = [
-  { name: "Img 1", img: "../img/elf.png", ID: 1 },
-  { name: "Img 2", img: "../img/frodo.png", ID: 2 },
-  { name: "Img 3", img: "../img/gandalf.png", ID: 3 },
-  { name: "Img 4", img: "../img/gollum.png", ID: 4 },
-  { name: "Img 5", img: "../img/legolas.png", ID: 5 },
-  { name: "Img 6", img: "../img/orc.png", ID: 6 },
-  { name: "Img 7", img: "../img/ring.png", ID: 7 },
-  { name: "Img 8", img: "../img/sauron.png", ID:8 },
+  { name: "Img 1", img: "img/elf.png", ID: 1 },
+  { name: "Img 2", img: "img/frodo.png", ID: 2 },
+  { name: "Img 3", img: "img/gandalf.png", ID: 3 },
+  { name: "Img 4", img: "img/gollum.png", ID: 4 },
+  { name: "Img 5", img: "img/legolas.png", ID: 5 },
+  { name: "Img 6", img: "img/orc.png", ID: 6 },
+  { name: "Img 7", img: "img/ring.png", ID: 7 },
+  { name: "Img 8", img: "img/sauron.png", ID:8 },
 ];
 let duplicateArray = cardsArray.slice();
 let finalArray = cardsArray.concat(duplicateArray);
